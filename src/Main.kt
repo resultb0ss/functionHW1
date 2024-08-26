@@ -1,3 +1,13 @@
+import kotlin.math.pow
+
 fun main() {
-    println("Hello World!")
+
+   stepen(2,10)
+}
+
+fun stepen(a: Int, step: Int) {
+
+    var result = a.toDouble()
+    println(result.pow(step).toInt())
+
 }
